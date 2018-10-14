@@ -103,8 +103,8 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx907j/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
     vendor/nubia/nx907j/proprietary/etc/camera/csidtg_camera.xml:system/etc/camera/csidtg_camera.xml \
     vendor/nubia/nx907j/proprietary/etc/camera/csidtg_chromatix.xml:system/etc/camera/csidtg_chromatix.xml \
-    vendor/nubia/nx907j/proprietary/etc/camera/hi533_chromatix.xml:system/etc/camera/hi533_chromatix.xml \
-    vendor/nubia/nx907j/proprietary/etc/camera/hi533_season_chromatix.xml:system/etc/camera/hi533_season_chromatix.xml \
+    vendor/nubia/nx907j/proprietary/etc/camera/hi553_chromatix.xml:system/etc/camera/hi553_chromatix.xml \
+    vendor/nubia/nx907j/proprietary/etc/camera/hi553_season_chromatix.xml:system/etc/camera/hi553_season_chromatix.xml \
     vendor/nubia/nx907j/proprietary/etc/camera/s5k3l8_chromatix.xml:system/etc/camera/s5k3l8_chromatix.xml \
     vendor/nubia/nx907j/proprietary/etc/camera/s5k3l8_darling_chromatix.xml:system/etc/camera/s5k3l8_darling_chromatix.xml \
     vendor/nubia/nx907j/proprietary/etc/camera/s5k3l8_season_chromatix.xml:system/etc/camera/s5k3l8_season_chromatix.xml \
@@ -169,7 +169,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx907j/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/nubia/nx907j/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/nubia/nx907j/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
-    vendor/nubia/nx907j/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
+#    vendor/nubia/nx907j/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/nubia/nx907j/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/nubia/nx907j/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/nubia/nx907j/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
@@ -189,6 +189,9 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx907j/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/nubia/nx907j/proprietary/lib/hw/camera.msm8937.so:system/lib/hw/camera.msm8937.so \
     vendor/nubia/nx907j/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
+    vendor/nubia/nx907j/proprietary/lib/libNubiaImageAlgorithm.so:system/lib/libNubiaImageAlgorithm.so \
+    vendor/nubia/nx907j/proprietary/lib/libNubiaImageAlgorithmCamera.so:system/lib/libNubiaImageAlgorithmCamera.so \
+    vendor/nubia/nx907j/proprietary/lib/libNubiaImageAlgorithmPhotoEditor.so:system/lib/libNubiaImageAlgorithmPhotoEditor.so \
     vendor/nubia/nx907j/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/nubia/nx907j/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
     vendor/nubia/nx907j/proprietary/lib/libarcsoft_beautyshot_image_algorithm.so:system/lib/libarcsoft_beautyshot_image_algorithm.so \
@@ -198,8 +201,8 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx907j/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/nubia/nx907j/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/nubia/nx907j/proprietary/lib/libmorpho_panorama_gp.so:system/lib/libmorpho_panorama_gp.so \
+    vendor/nubia/nx907j/proprietary/lib/libnubia_clone.so:system/lib/libnubia_clone.so \
     vendor/nubia/nx907j/proprietary/lib/libnubia_effect.so:system/lib/libnubia_effect.so \
-    vendor/nubia/nx907j/proprietary/lib/libnubia_runtime.so:system/lib/libnubia_runtime.so \
     vendor/nubia/nx907j/proprietary/lib/libnubiajpeg.so:system/lib/libnubiajpeg.so \
     vendor/nubia/nx907j/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/nubia/nx907j/proprietary/lib/libsigchain.so:system/lib/libsigchain.so \
@@ -209,11 +212,15 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx907j/proprietary/lib64//hw/gxfingerprint.default.so:system/lib64//hw/gxfingerprint.default.so \
     vendor/nubia/nx907j/proprietary/lib64//hw/swfingerprint.default.so:system/lib64//hw/swfingerprint.default.so \
     vendor/nubia/nx907j/proprietary/lib64/hw/consumerir.default.so:system/lib64/hw/consumerir.default.so \
+    vendor/nubia/nx907j/proprietary/lib64/libNubiaImageAlgorithmCamera.so:system/lib64/libNubiaImageAlgorithmCamera.so \
     vendor/nubia/nx907j/proprietary/lib64/libfp_client.so:system/lib64/libfp_client.so \
     vendor/nubia/nx907j/proprietary/lib64/libfpservice.so:system/lib64/libfpservice.so \
     vendor/nubia/nx907j/proprietary/lib64/libmm-omxcore.so:system/lib64/libmm-omxcore.so \
     vendor/nubia/nx907j/proprietary/lib64/libmorpho_panorama_gp.so:system/lib64/libmorpho_panorama_gp.so \
-    vendor/nubia/nx907j/proprietary/lib64/libnubia_runtime.so:system/lib64/libnubia_runtime.so \
+    vendor/nubia/nx907j/proprietary/lib64/libnubia_clone.so:system/lib64/libnubia_clone.so \
+    vendor/nubia/nx907j/proprietary/lib64/libnubia_delay_recorder.so:system/lib64/libnubia_delay_recorder.so \
+    vendor/nubia/nx907j/proprietary/lib64/libnubia_gallery_player.so:system/lib64/libnubia_gallery_player.so \
+    vendor/nubia/nx907j/proprietary/lib64/libnubia_media_player.so:system/lib64/libnubia_media_player.so \
     vendor/nubia/nx907j/proprietary/lib64/libnubiajpeg.so:system/lib64/libnubiajpeg.so \
     vendor/nubia/nx907j/proprietary/lib64/libsigchain.so:system/lib64/libsigchain.so \
     vendor/nubia/nx907j/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
@@ -294,66 +301,66 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx907j/proprietary/vendor/lib/libc2d30-a5xx.so:system/vendor/lib/libc2d30-a5xx.so \
     vendor/nubia/nx907j/proprietary/vendor/lib/libc2d30_bltlib.so:system/vendor/lib/libc2d30_bltlib.so \
     vendor/nubia/nx907j/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_a3_default_preview.so:system/vendor/lib/libchromatix_hi533_a3_default_preview.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_a3_default_video.so:system/vendor/lib/libchromatix_hi533_a3_default_video.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_a3_hfr_120.so:system/vendor/lib/libchromatix_hi533_a3_hfr_120.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_a3_hfr_60.so:system/vendor/lib/libchromatix_hi533_a3_hfr_60.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_a3_hfr_90.so:system/vendor/lib/libchromatix_hi533_a3_hfr_90.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_a3_wc_default_preview.so:system/vendor/lib/libchromatix_hi533_a3_wc_default_preview.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_a3_wc_snapahot.so:system/vendor/lib/libchromatix_hi533_a3_wc_snapahot.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_a3_wc_video.so:system/vendor/lib/libchromatix_hi533_a3_wc_video.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_common.so:system/vendor/lib/libchromatix_hi533_common.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_cpp_hfr_120.so:system/vendor/lib/libchromatix_hi533_cpp_hfr_120.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_cpp_hfr_60.so:system/vendor/lib/libchromatix_hi533_cpp_hfr_60.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_cpp_hfr_90.so:system/vendor/lib/libchromatix_hi533_cpp_hfr_90.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_cpp_liveshot.so:system/vendor/lib/libchromatix_hi533_cpp_liveshot.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_cpp_preview.so:system/vendor/lib/libchromatix_hi533_cpp_preview.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_cpp_snapshot.so:system/vendor/lib/libchromatix_hi533_cpp_snapshot.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_cpp_video.so:system/vendor/lib/libchromatix_hi533_cpp_video.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_cpp_wc_preview.so:system/vendor/lib/libchromatix_hi533_cpp_wc_preview.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_cpp_wc_snapshot.so:system/vendor/lib/libchromatix_hi533_cpp_wc_snapshot.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_default_video.so:system/vendor/lib/libchromatix_hi533_default_video.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_hfr_120.so:system/vendor/lib/libchromatix_hi533_hfr_120.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_hfr_60.so:system/vendor/lib/libchromatix_hi533_hfr_60.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_hfr_90.so:system/vendor/lib/libchromatix_hi533_hfr_90.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_liveshot.so:system/vendor/lib/libchromatix_hi533_liveshot.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_postproc.so:system/vendor/lib/libchromatix_hi533_postproc.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_preview.so:system/vendor/lib/libchromatix_hi533_preview.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_season_a3_default_preview.so:system/vendor/lib/libchromatix_hi533_season_a3_default_preview.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_season_a3_default_video.so:system/vendor/lib/libchromatix_hi533_season_a3_default_video.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_season_a3_hfr_120.so:system/vendor/lib/libchromatix_hi533_season_a3_hfr_120.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_season_a3_hfr_60.so:system/vendor/lib/libchromatix_hi533_season_a3_hfr_60.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_season_a3_hfr_90.so:system/vendor/lib/libchromatix_hi533_season_a3_hfr_90.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_season_a3_wc_default_preview.so:system/vendor/lib/libchromatix_hi533_season_a3_wc_default_preview.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_season_a3_wc_default_snapshot.so:system/vendor/lib/libchromatix_hi533_season_a3_wc_default_snapshot.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_season_a3_wc_default_video.so:system/vendor/lib/libchromatix_hi533_season_a3_wc_default_video.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_season_common.so:system/vendor/lib/libchromatix_hi533_season_common.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_season_cpp_hfr_120.so:system/vendor/lib/libchromatix_hi533_season_cpp_hfr_120.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_season_cpp_hfr_60.so:system/vendor/lib/libchromatix_hi533_season_cpp_hfr_60.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_season_cpp_hfr_90.so:system/vendor/lib/libchromatix_hi533_season_cpp_hfr_90.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_season_cpp_liveshot.so:system/vendor/lib/libchromatix_hi533_season_cpp_liveshot.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_season_cpp_preview.so:system/vendor/lib/libchromatix_hi533_season_cpp_preview.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_season_cpp_snapshot.so:system/vendor/lib/libchromatix_hi533_season_cpp_snapshot.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_season_cpp_video.so:system/vendor/lib/libchromatix_hi533_season_cpp_video.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_season_cpp_wc_preview.so:system/vendor/lib/libchromatix_hi533_season_cpp_wc_preview.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_season_cpp_wc_snapshot.so:system/vendor/lib/libchromatix_hi533_season_cpp_wc_snapshot.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_season_default_video.so:system/vendor/lib/libchromatix_hi533_season_default_video.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_season_hfr_120.so:system/vendor/lib/libchromatix_hi533_season_hfr_120.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_season_hfr_60.so:system/vendor/lib/libchromatix_hi533_season_hfr_60.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_season_hfr_90.so:system/vendor/lib/libchromatix_hi533_season_hfr_90.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_season_liveshot.so:system/vendor/lib/libchromatix_hi533_season_liveshot.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_season_postproc.so:system/vendor/lib/libchromatix_hi533_season_postproc.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_season_preview.so:system/vendor/lib/libchromatix_hi533_season_preview.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_season_snapshot.so:system/vendor/lib/libchromatix_hi533_season_snapshot.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_season_wc_preview.so:system/vendor/lib/libchromatix_hi533_season_wc_preview.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_season_wc_snapshot.so:system/vendor/lib/libchromatix_hi533_season_wc_snapshot.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_season_zsl_preview.so:system/vendor/lib/libchromatix_hi533_season_zsl_preview.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_season_zsl_video.so:system/vendor/lib/libchromatix_hi533_season_zsl_video.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_snapshot.so:system/vendor/lib/libchromatix_hi533_snapshot.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_wc_preview.so:system/vendor/lib/libchromatix_hi533_wc_preview.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_wc_snapshot.so:system/vendor/lib/libchromatix_hi533_wc_snapshot.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_zls_preview.so:system/vendor/lib/libchromatix_hi533_zls_preview.so \
-    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi533_zls_snapshot.so:system/vendor/lib/libchromatix_hi533_zls_snapshot.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_a3_default_preview.so:system/vendor/lib/libchromatix_hi553_a3_default_preview.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_a3_default_video.so:system/vendor/lib/libchromatix_hi553_a3_default_video.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_a3_hfr_120.so:system/vendor/lib/libchromatix_hi553_a3_hfr_120.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_a3_hfr_60.so:system/vendor/lib/libchromatix_hi553_a3_hfr_60.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_a3_hfr_90.so:system/vendor/lib/libchromatix_hi553_a3_hfr_90.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_a3_wc_default_preview.so:system/vendor/lib/libchromatix_hi553_a3_wc_default_preview.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_a3_wc_snapahot.so:system/vendor/lib/libchromatix_hi553_a3_wc_snapahot.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_a3_wc_video.so:system/vendor/lib/libchromatix_hi553_a3_wc_video.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_common.so:system/vendor/lib/libchromatix_hi553_common.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_cpp_hfr_120.so:system/vendor/lib/libchromatix_hi553_cpp_hfr_120.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_cpp_hfr_60.so:system/vendor/lib/libchromatix_hi553_cpp_hfr_60.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_cpp_hfr_90.so:system/vendor/lib/libchromatix_hi553_cpp_hfr_90.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_cpp_liveshot.so:system/vendor/lib/libchromatix_hi553_cpp_liveshot.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_cpp_preview.so:system/vendor/lib/libchromatix_hi553_cpp_preview.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_cpp_snapshot.so:system/vendor/lib/libchromatix_hi553_cpp_snapshot.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_cpp_video.so:system/vendor/lib/libchromatix_hi553_cpp_video.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_cpp_wc_preview.so:system/vendor/lib/libchromatix_hi553_cpp_wc_preview.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_cpp_wc_snapshot.so:system/vendor/lib/libchromatix_hi553_cpp_wc_snapshot.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_default_video.so:system/vendor/lib/libchromatix_hi553_default_video.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_hfr_120.so:system/vendor/lib/libchromatix_hi553_hfr_120.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_hfr_60.so:system/vendor/lib/libchromatix_hi553_hfr_60.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_hfr_90.so:system/vendor/lib/libchromatix_hi553_hfr_90.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_liveshot.so:system/vendor/lib/libchromatix_hi553_liveshot.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_postproc.so:system/vendor/lib/libchromatix_hi553_postproc.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_preview.so:system/vendor/lib/libchromatix_hi553_preview.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_season_a3_default_preview.so:system/vendor/lib/libchromatix_hi553_season_a3_default_preview.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_season_a3_default_video.so:system/vendor/lib/libchromatix_hi553_season_a3_default_video.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_season_a3_hfr_120.so:system/vendor/lib/libchromatix_hi553_season_a3_hfr_120.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_season_a3_hfr_60.so:system/vendor/lib/libchromatix_hi553_season_a3_hfr_60.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_season_a3_hfr_90.so:system/vendor/lib/libchromatix_hi553_season_a3_hfr_90.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_season_a3_wc_default_preview.so:system/vendor/lib/libchromatix_hi553_season_a3_wc_default_preview.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_season_a3_wc_default_snapshot.so:system/vendor/lib/libchromatix_hi553_season_a3_wc_default_snapshot.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_season_a3_wc_default_video.so:system/vendor/lib/libchromatix_hi553_season_a3_wc_default_video.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_season_common.so:system/vendor/lib/libchromatix_hi553_season_common.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_season_cpp_hfr_120.so:system/vendor/lib/libchromatix_hi553_season_cpp_hfr_120.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_season_cpp_hfr_60.so:system/vendor/lib/libchromatix_hi553_season_cpp_hfr_60.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_season_cpp_hfr_90.so:system/vendor/lib/libchromatix_hi553_season_cpp_hfr_90.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_season_cpp_liveshot.so:system/vendor/lib/libchromatix_hi553_season_cpp_liveshot.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_season_cpp_preview.so:system/vendor/lib/libchromatix_hi553_season_cpp_preview.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_season_cpp_snapshot.so:system/vendor/lib/libchromatix_hi553_season_cpp_snapshot.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_season_cpp_video.so:system/vendor/lib/libchromatix_hi553_season_cpp_video.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_season_cpp_wc_preview.so:system/vendor/lib/libchromatix_hi553_season_cpp_wc_preview.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_season_cpp_wc_snapshot.so:system/vendor/lib/libchromatix_hi553_season_cpp_wc_snapshot.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_season_default_video.so:system/vendor/lib/libchromatix_hi553_season_default_video.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_season_hfr_120.so:system/vendor/lib/libchromatix_hi553_season_hfr_120.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_season_hfr_60.so:system/vendor/lib/libchromatix_hi553_season_hfr_60.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_season_hfr_90.so:system/vendor/lib/libchromatix_hi553_season_hfr_90.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_season_liveshot.so:system/vendor/lib/libchromatix_hi553_season_liveshot.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_season_postproc.so:system/vendor/lib/libchromatix_hi553_season_postproc.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_season_preview.so:system/vendor/lib/libchromatix_hi553_season_preview.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_season_snapshot.so:system/vendor/lib/libchromatix_hi553_season_snapshot.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_season_wc_preview.so:system/vendor/lib/libchromatix_hi553_season_wc_preview.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_season_wc_snapshot.so:system/vendor/lib/libchromatix_hi553_season_wc_snapshot.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_season_zsl_preview.so:system/vendor/lib/libchromatix_hi553_season_zsl_preview.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_season_zsl_video.so:system/vendor/lib/libchromatix_hi553_season_zsl_video.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_snapshot.so:system/vendor/lib/libchromatix_hi553_snapshot.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_wc_preview.so:system/vendor/lib/libchromatix_hi553_wc_preview.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_wc_snapshot.so:system/vendor/lib/libchromatix_hi553_wc_snapshot.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_zls_preview.so:system/vendor/lib/libchromatix_hi553_zls_preview.so \
+    vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_hi553_zls_snapshot.so:system/vendor/lib/libchromatix_hi553_zls_snapshot.so \
     vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_s5k3l8:system/vendor/lib/libchromatix_s5k3l8 \
     vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_s5k3l8:system/vendor/lib/libchromatix_s5k3l8 \
     vendor/nubia/nx907j/proprietary/vendor/lib/libchromatix_s5k3l8_a3_default_preview.so:system/vendor/lib/libchromatix_s5k3l8_a3_default_preview.so \
