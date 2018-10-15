@@ -189,6 +189,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx907j/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/nubia/nx907j/proprietary/lib/hw/camera.msm8937.so:system/lib/hw/camera.msm8937.so \
     vendor/nubia/nx907j/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
+    vendor/nubia/nx907j/proprietary/lib/hw/lights.msm8937.so:system/lib/hw/lights.msm8937.so \
     vendor/nubia/nx907j/proprietary/lib/libNubiaImageAlgorithm.so:system/lib/libNubiaImageAlgorithm.so \
     vendor/nubia/nx907j/proprietary/lib/libNubiaImageAlgorithmCamera.so:system/lib/libNubiaImageAlgorithmCamera.so \
     vendor/nubia/nx907j/proprietary/lib/libNubiaImageAlgorithmPhotoEditor.so:system/lib/libNubiaImageAlgorithmPhotoEditor.so \
@@ -211,6 +212,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx907j/proprietary/lib64//hw/fingerprint.default.so:system/lib64//hw/fingerprint.default.so \
     vendor/nubia/nx907j/proprietary/lib64//hw/gxfingerprint.default.so:system/lib64//hw/gxfingerprint.default.so \
     vendor/nubia/nx907j/proprietary/lib64//hw/swfingerprint.default.so:system/lib64//hw/swfingerprint.default.so \
+    vendor/nubia/nx907j/proprietary/lib64/hw/lights.msm8937.so:system/lib64/hw/lights.msm8937.so \
     vendor/nubia/nx907j/proprietary/lib64/hw/consumerir.default.so:system/lib64/hw/consumerir.default.so \
     vendor/nubia/nx907j/proprietary/lib64/libNubiaImageAlgorithmCamera.so:system/lib64/libNubiaImageAlgorithmCamera.so \
     vendor/nubia/nx907j/proprietary/lib64/libfp_client.so:system/lib64/libfp_client.so \
