@@ -194,6 +194,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx907j/proprietary/lib/hw/copybit.msm8937.so:system/lib/hw/copybit.msm8937.so \
     vendor/nubia/nx907j/proprietary/lib/hw/gralloc.msm8937.so:system/lib/hw/gralloc.msm8937.so \
     vendor/nubia/nx907j/proprietary/lib/hw/hwcomposer.msm8937.so:system/lib/hw/hwcomposer.msm8937.so \
+    vendor/nubia/nx907j/proprietary/lib/libc2dcolorconvert.so:system/lib/libc2dcolorconvert.so \
     vendor/nubia/nx907j/proprietary/lib/libNubiaImageAlgorithm.so:system/lib/libNubiaImageAlgorithm.so \
     vendor/nubia/nx907j/proprietary/lib/libNubiaImageAlgorithmCamera.so:system/lib/libNubiaImageAlgorithmCamera.so \
     vendor/nubia/nx907j/proprietary/lib/libNubiaImageAlgorithmPhotoEditor.so:system/lib/libNubiaImageAlgorithmPhotoEditor.so \
@@ -230,6 +231,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx907j/proprietary/lib64/hw/copybit.msm8937.so:system/lib64/hw/copybit.msm8937.so \
     vendor/nubia/nx907j/proprietary/lib64/hw/gralloc.msm8937.so:system/lib64/hw/gralloc.msm8937.so \
     vendor/nubia/nx907j/proprietary/lib64/hw/hwcomposer.msm8937.so:system/lib64/hw/hwcomposer.msm8937.so \
+    vendor/nubia/nx907j/proprietary/lib64/libc2dcolorconvert.so:system/lib64/libc2dcolorconvert.so \
     vendor/nubia/nx907j/proprietary/lib64/libNubiaImageAlgorithmCamera.so:system/lib64/libNubiaImageAlgorithmCamera.so \
     vendor/nubia/nx907j/proprietary/lib64/libOmxAacEnc.so:system/lib64/libOmxAacEnc.so \
     vendor/nubia/nx907j/proprietary/lib64/libOmxAmrEnc.so:system/lib64/libOmxAmrEnc.so \
