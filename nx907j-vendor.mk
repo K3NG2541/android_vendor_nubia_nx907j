@@ -194,7 +194,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx907j/proprietary/lib/hw/copybit.msm8937.so:system/lib/hw/copybit.msm8937.so \
     vendor/nubia/nx907j/proprietary/lib/hw/gralloc.msm8937.so:system/lib/hw/gralloc.msm8937.so \
     vendor/nubia/nx907j/proprietary/lib/hw/hwcomposer.msm8937.so:system/lib/hw/hwcomposer.msm8937.so \
-    vendor/nubia/nx907j/proprietary/lib/libc2dcolorconvert.so:system/lib/libc2dcolorconvert.so \
     vendor/nubia/nx907j/proprietary/lib/libNubiaImageAlgorithm.so:system/lib/libNubiaImageAlgorithm.so \
     vendor/nubia/nx907j/proprietary/lib/libNubiaImageAlgorithmCamera.so:system/lib/libNubiaImageAlgorithmCamera.so \
     vendor/nubia/nx907j/proprietary/lib/libNubiaImageAlgorithmPhotoEditor.so:system/lib/libNubiaImageAlgorithmPhotoEditor.so \
@@ -210,7 +209,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx907j/proprietary/lib/libarcsoft_beautyshot_image_algorithm.so:system/lib/libarcsoft_beautyshot_image_algorithm.so \
     vendor/nubia/nx907j/proprietary/lib/libarcsoft_beautyshot_video_algorithm.so:system/lib/libarcsoft_beautyshot_video_algorithm.so \
     vendor/nubia/nx907j/proprietary/lib/libarcsoft_high_dynamic_range.so:system/lib/libarcsoft_high_dynamic_range.so \
-    vendor/nubia/nx907j/proprietary/lib/libmemalloc.so:system/lib/libmemalloc.so \
+    vendor/nubia/nx907j/proprietary/lib/libc2dcolorconvert.so:system/lib/libc2dcolorconvert.so \
     vendor/nubia/nx907j/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/nubia/nx907j/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/nubia/nx907j/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
@@ -223,15 +222,16 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx907j/proprietary/lib/libsigchain.so:system/lib/libsigchain.so \
     vendor/nubia/nx907j/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/nubia/nx907j/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
-    vendor/nubia/nx907j/proprietary/lib64//hw/fingerprint.default.so:system/lib64//hw/fingerprint.default.so \
-    vendor/nubia/nx907j/proprietary/lib64//hw/gxfingerprint.default.so:system/lib64//hw/gxfingerprint.default.so \
-    vendor/nubia/nx907j/proprietary/lib64//hw/swfingerprint.default.so:system/lib64//hw/swfingerprint.default.so \
+    vendor/nubia/nx907j/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
+    vendor/nubia/nx907j/proprietary/lib/soundfx/libqcompostprocbundle.so:system/lib/soundfx/libqcompostprocbundle.so \
     vendor/nubia/nx907j/proprietary/lib64/hw/audio.primary.msm8937.so:system/lib64/hw/audio.primary.msm8937.so \
     vendor/nubia/nx907j/proprietary/lib64/hw/consumerir.default.so:system/lib64/hw/consumerir.default.so \
     vendor/nubia/nx907j/proprietary/lib64/hw/copybit.msm8937.so:system/lib64/hw/copybit.msm8937.so \
+    vendor/nubia/nx907j/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
     vendor/nubia/nx907j/proprietary/lib64/hw/gralloc.msm8937.so:system/lib64/hw/gralloc.msm8937.so \
+    vendor/nubia/nx907j/proprietary/lib64/hw/gxfingerprint.default.so:system/lib64/hw/gxfingerprint.default.so \
     vendor/nubia/nx907j/proprietary/lib64/hw/hwcomposer.msm8937.so:system/lib64/hw/hwcomposer.msm8937.so \
-    vendor/nubia/nx907j/proprietary/lib64/libc2dcolorconvert.so:system/lib64/libc2dcolorconvert.so \
+    vendor/nubia/nx907j/proprietary/lib64/hw/swfingerprint.default.so:system/lib64/hw/swfingerprint.default.so \
     vendor/nubia/nx907j/proprietary/lib64/libNubiaImageAlgorithmCamera.so:system/lib64/libNubiaImageAlgorithmCamera.so \
     vendor/nubia/nx907j/proprietary/lib64/libOmxAacEnc.so:system/lib64/libOmxAacEnc.so \
     vendor/nubia/nx907j/proprietary/lib64/libOmxAmrEnc.so:system/lib64/libOmxAmrEnc.so \
@@ -241,9 +241,9 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx907j/proprietary/lib64/libOmxVdec.so:system/lib64/libOmxVdec.so \
     vendor/nubia/nx907j/proprietary/lib64/libOmxVenc.so:system/lib64/libOmxVenc.so \
     vendor/nubia/nx907j/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
+    vendor/nubia/nx907j/proprietary/lib64/libc2dcolorconvert.so:system/lib64/libc2dcolorconvert.so \
     vendor/nubia/nx907j/proprietary/lib64/libfp_client.so:system/lib64/libfp_client.so \
     vendor/nubia/nx907j/proprietary/lib64/libfpservice.so:system/lib64/libfpservice.so \
-    vendor/nubia/nx907j/proprietary/lib64/libmemalloc.so:system/lib64/libmemalloc.so \
     vendor/nubia/nx907j/proprietary/lib64/libmm-omxcore.so:system/lib64/libmm-omxcore.so \
     vendor/nubia/nx907j/proprietary/lib64/libmorpho_panorama_gp.so:system/lib64/libmorpho_panorama_gp.so \
     vendor/nubia/nx907j/proprietary/lib64/libnubia_clone.so:system/lib64/libnubia_clone.so \
@@ -255,6 +255,8 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx907j/proprietary/lib64/libsigchain.so:system/lib64/libsigchain.so \
     vendor/nubia/nx907j/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
     vendor/nubia/nx907j/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
+    vendor/nubia/nx907j/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
+    vendor/nubia/nx907j/proprietary/lib64/soundfx/libqcompostprocbundle.so:system/lib64/soundfx/libqcompostprocbundle.so \
     vendor/nubia/nx907j/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/nubia/nx907j/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/nubia/nx907j/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
@@ -899,7 +901,62 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx907j/proprietary/vendor/lib64/soundfx/libqcbassboost.so:system/vendor/lib64/soundfx/libqcbassboost.so \
     vendor/nubia/nx907j/proprietary/vendor/lib64/soundfx/libqcreverb.so:system/vendor/lib64/soundfx/libqcreverb.so \
     vendor/nubia/nx907j/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
-    vendor/nubia/nx907j/proprietary/vendor/qcril.db:system/vendor/qcril.db
+    vendor/nubia/nx907j/proprietary/vendor/qcril.db:system/vendor/qcril.db \
+    vendor/nubia/nx907j/proprietary/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
+	vendor/nubia/nx907j/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
+	vendor/nubia/nx907j/proprietary/etc/aanc_tuning_mixer.txt:system/etc/aanc_tuning_mixer.txt \
+	vendor/nubia/nx907j/proprietary/etc/a2dp_audio_policy_configuration.xml:system/etc/a2dp_audio_policy_configuration.xml \
+	vendor/nubia/nx907j/proprietary/etc/audio_platform_info.xml:system/etc/audio_platform_info.xml \
+	vendor/nubia/nx907j/proprietary/etc/audio_platform_info_extcodec.xml:system/etc/audio_platform_info_extcodec.xml \
+	vendor/nubia/nx907j/proprietary/etc/audio_policy_configuration.xml:system/etc/audio_policy_configuration.xml \
+	vendor/nubia/nx907j/proprietary/etc/audio_policy_volumes.xml:system/etc/audio_policy_volumes.xml \
+	vendor/nubia/nx907j/proprietary/etc/default_volume_tables.xml:system/etc/default_volume_tables.xml \
+	vendor/nubia/nx907j/proprietary/etc/mixer_paths.xml:system/etc/mixer_paths.xml \
+	vendor/nubia/nx907j/proprietary/etc/mixer_paths_mtp.xml:system/etc/mixer_paths_mtp.xml \
+	vendor/nubia/nx907j/proprietary/etc/mixer_paths_qrd_sku1.xml:system/etc/mixer_paths_qrd_sku1.xml \
+	vendor/nubia/nx907j/proprietary/etc/mixer_paths_qrd_sku2.xml:system/etc/mixer_paths_qrd_sku2.xml \
+	vendor/nubia/nx907j/proprietary/etc/mixer_paths_qrd_skuh.xml:system/etc/mixer_paths_qrd_skuh.xml \
+	vendor/nubia/nx907j/proprietary/etc/mixer_paths_qrd_skuhf.xml:system/etc/mixer_paths_qrd_skuhf.xml \
+	vendor/nubia/nx907j/proprietary/etc/mixer_paths_qrd_skui.xml:system/etc/mixer_paths_qrd_skui.xml \
+	vendor/nubia/nx907j/proprietary/etc/mixer_paths_qrd_skum.xml:system/etc/mixer_paths_qrd_skum.xml \
+	vendor/nubia/nx907j/proprietary/etc/mixer_paths_qrd_skun.xml:system/etc/mixer_paths_qrd_skun.xml \
+	vendor/nubia/nx907j/proprietary/etc/mixer_paths_skuk.xml:system/etc/mixer_paths_skuk.xml \
+	vendor/nubia/nx907j/proprietary/etc/mixer_paths_wcd9306.xml:system/etc/mixer_paths_wcd9306.xml \
+	vendor/nubia/nx907j/proprietary/etc/mixer_paths_wcd9326.xml:system/etc/mixer_paths_wcd9326.xml \
+	vendor/nubia/nx907j/proprietary/etc/mixer_paths_wcd9330.xml:system/etc/mixer_paths_wcd9330.xml \
+	vendor/nubia/nx907j/proprietary/etc/mixer_paths_wcd9335.xml:system/etc/mixer_paths_wcd9335.xml \
+	vendor/nubia/nx907j/proprietary/etc/r_submix_audio_policy_configuration.xml:system/etc/r_submix_audio_policy_configuration.xml \
+	vendor/nubia/nx907j/proprietary/etc/sound_trigger_mixer_paths.xml:system/etc/sound_trigger_mixer_paths.xml \
+	vendor/nubia/nx907j/proprietary/etc/sound_trigger_mixer_paths_wcd9306.xml:system/etc/sound_trigger_mixer_paths_wcd9306.xml \
+	vendor/nubia/nx907j/proprietary/etc/sound_trigger_mixer_paths_wcd9330.xml:system/etc/sound_trigger_mixer_paths_wcd9330.xml \
+	vendor/nubia/nx907j/proprietary/etc/sound_trigger_mixer_paths_wcd9335.xml:system/etc/sound_trigger_mixer_paths_wcd9335.xml \
+	vendor/nubia/nx907j/proprietary/etc/sound_trigger_platform_info.xml:system/etc/sound_trigger_platform_info.xml \
+	vendor/nubia/nx907j/proprietary/etc/usb_audio_policy_configuration.xml:system/etc/usb_audio_policy_configuration.xml
+	
+#audio
+    PRODUCT_COPY_FILES += \
+	vendor/nubia/nx907j/proprietary/bin/tinymix:system/bin/tinymix \
+	vendor/nubia/nx907j/proprietary/bin/audiod:system/bin/audiod \
+	vendor/nubia/nx907j/proprietary/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \
+	vendor/nubia/nx907j/proprietary/lib/soundfx/libqcomvisualizer.so:system/lib/soundfx/libqcomvisualizer.so \
+	vendor/nubia/nx907j/proprietary/lib/libaudio-resampler.so:system/lib/libaudio-resampler.so \
+	vendor/nubia/nx907j/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
+    vendor/nubia/nx907j/proprietary/lib/hw/audio.r_submix.default.so:system/lib/hw/audio.r_submix.default.so \
+    vendor/nubia/nx907j/proprietary/lib/hw/audio.usb.default.so:system/lib/hw/audio.usb.default.so \
+    vendor/nubia/nx907j/proprietary/lib64/soundfx/libqcomvoiceprocessing.so:system/lib64/soundfx/libqcomvoiceprocessing.so \
+	vendor/nubia/nx907j/proprietary/lib64/soundfx/libqcomvisualizer.so:system/lib64/soundfx/libqcomvisualizer.so \
+	vendor/nubia/nx907j/proprietary/lib64/libaudio-resampler.so:system/lib64/libaudio-resampler.so \
+	vendor/nubia/nx907j/proprietary/lib64/hw/audio.a2dp.default.so:system/lib64/hw/audio.a2dp.default.so \
+    vendor/nubia/nx907j/proprietary/lib64/hw/audio.r_submix.default.so:system/lib64/hw/audio.r_submix.default.so \
+    vendor/nubia/nx907j/proprietary/lib64/hw/audio.usb.default.so:system/lib64/hw/audio.usb.default.so \
+    vendor/nubia/nx907j/proprietary/lib64/hw/memtrack.msm8937.so:system/lib64/hw/memtrack.msm8937.so \
+    vendor/nubia/nx907j/proprietary/lib64/libtinyxml.so:system/lib64/libtinyxml.so \
+    vendor/nubia/nx907j/proprietary/lib/hw/memtrack.msm8937.so:system/lib/hw/memtrack.msm8937.so \
+    vendor/nubia/nx907j/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
+    vendor/nubia/nx907j/proprietary/lib/libmemalloc.so:system/lib/libmemalloc.so \
+    vendor/nubia/nx907j/proprietary/lib64/libmemalloc.so:system/lib64/libmemalloc.so \
+    vendor/nubia/nx907j/proprietary/lib/hw/gralloc.msm8937.so:system/lib/hw/gralloc.default.so \
+    vendor/nubia/nx907j/proprietary/lib64/hw/gralloc.default.so:system/lib64/hw/gralloc.default.so
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
